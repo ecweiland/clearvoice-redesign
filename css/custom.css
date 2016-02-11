@@ -1,0 +1,11 @@
+/* aligning the stuff at the top of the page*/
+h4, h6 {
+    text-align: center
+}
+
+/*marking required form elements*/
+
+.required-label:after {
+    content: "*";
+    color: red;
+}
